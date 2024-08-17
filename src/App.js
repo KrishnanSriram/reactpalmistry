@@ -8,17 +8,19 @@ import { ContactForm } from './component/conactme';
 import AppHeader from './component/appheader';
 import { TripleCards } from './component/triplecards';
 import ScrollAnimation from 'react-animate-on-scroll';
+import AboutMe from './component/aboutme';
 
 function App() {
   return (
     <div>
       <NavigationBar />
       <AppHeader />
-      <ScrollAnimation animateIn="fadeIn">
-        <CardLeftImage />
-      </ScrollAnimation>
+      <CardLeftImage />
       <ScrollAnimation animateIn="fadeIn">
         <CardRightImage />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn">
+        <AboutMe />
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeIn">
         <TripleCards />

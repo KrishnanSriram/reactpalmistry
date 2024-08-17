@@ -46,7 +46,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <div className="container col-8 my-5">
+    <div id="contact" className="container col-8 my-5">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit} noValidate>
         <div className="mb-3">

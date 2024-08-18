@@ -5,7 +5,7 @@ import './css/cardanimations.css';
 
 export const AboutMe = () => {
   return (
-    <div className="card mb-3 my-3 mx-5 border-0 text-align-center">
+    <div id="about" className="card mb-3 my-3 mx-5 border-0 text-align-center">
       <div className="row g-0">
         <div className="col-md-4"></div>
         <div className="col-md-8">

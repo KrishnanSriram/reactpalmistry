@@ -40,7 +40,7 @@ export const CardRightImage = () => {
         </div>
         <div className="col-md-4">
           <img src={image5} 
-            className="img-fluid rounded-start fixed-size-image" alt="Card Image"/>
+            className="img-fluid rounded-start fixed-size-image" alt="Right card"/>
         </div>
       </div>
     </div>

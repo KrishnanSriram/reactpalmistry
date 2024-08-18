@@ -32,7 +32,7 @@ export const CardLeftImage = () => {
       <div className="row g-0">
         <div className="col-md-4">
           <img src={image4} 
-            className="img-fluid rounded-start fixed-size-image" alt="Card Image"/>
+            className="img-fluid rounded-start fixed-size-image" alt="left Card"/>
         </div>
         <div className="col-md-8">
           <div className="card-body">

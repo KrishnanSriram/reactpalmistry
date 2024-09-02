@@ -3,7 +3,7 @@ import { NavigationBar } from './component/navigationbar';
 import { AppFooter } from './component/appfooter';
 import CardLeftImage from './component/cardleftimage';
 import CardRightImage from './component/cardrightimage';
-import { ContactForm } from './component/conactme';
+import { ContactForm } from './component/contactme';
 import AppHeader from './component/appheader';
 import { TripleCards } from './component/triplecards';
 import ScrollAnimation from 'react-animate-on-scroll';

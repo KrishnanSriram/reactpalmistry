@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export const ContactForm = () => {
+  const form = useRef();
   const [formData, setFormData] = useState({
-    fullName: '',
+    from_name: '',
     email: '',
     phone: '',
     message: ''
@@ -20,7 +22,7 @@ export const ContactForm = () => {
   const validate = () => {
     let formErrors = {};
 
-    if (!formData.fullName) formErrors.fullName = "Full name is required";
+    if (!formData.from_name) formErrors.fullName = "Full name is required";
     if (!formData.email) formErrors.email = "Email is required";
     if (!formData.message) formErrors.message = "Message is required";
 
@@ -32,14 +34,36 @@ export const ContactForm = () => {
     const formErrors = validate();
 
     if (Object.keys(formErrors).length === 0) {
-      alert('Form submitted successfully!');
-      // Handle form submission, e.g., send the data to a server
-      setFormData({
-        fullName: '',
-        email: '',
-        phone: '',
-        message: ''
+
+      var templateParams = {
+        to_name: 'Palmist',
+        from_name: formData.from_name + ', ' + formData.email,
+        message: formData.message
+      };
+
+      emailjs.init({
+        publicKey: 'TGfbOqBZ4mzbVj82o',
+        // Do not allow headless browsers
+        blockHeadless: true,
       });
+      
+      emailjs.send('service_w17dr3f', 'template_svbsr5n', templateParams).then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          alert('Form submitted successfully!');
+          // Handle form submission, e.g., send the data to a server
+          setFormData({
+            from_name: '',
+            email: '',
+            phone: '',
+            message: ''
+          });
+        },
+        (error) => {
+          console.log('FAILED...', error);
+          setErrors(error);
+        },
+      );     
     } else {
       setErrors(formErrors);
     }
@@ -54,12 +78,12 @@ export const ContactForm = () => {
           <input
             type="text"
             className={`form-control ${errors.fullName ? 'is-invalid' : ''}`}
-            id="fullName"
-            name="fullName"
-            value={formData.fullName}
+            id="from_name"
+            name="from_name"
+            value={formData.from_name}
             onChange={handleChange}
           />
-          {errors.fullName && <div className="invalid-feedback">{errors.fullName}</div>}
+          {errors.from_name && <div className="invalid-feedback">{errors.from_name}</div>}
         </div>
 
         <div className="mb-3">

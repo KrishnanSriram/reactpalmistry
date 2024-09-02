@@ -47,7 +47,7 @@ export const ContactForm = () => {
         blockHeadless: true,
       });
       
-      emailjs.send('service_w17dr3f', 'template_svbsr5n', templateParams).then(
+      emailjs.send('service_kqdi0ob', 'template_svbsr5n', templateParams).then(
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
           alert('Form submitted successfully!');

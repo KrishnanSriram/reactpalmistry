@@ -42,7 +42,7 @@ export const TripleCards = () => {
               <p className="card-text">
                 <ul>
                   <li>20 Minutes with Palmist</li>
-                  <li>Viedeo/Audio call</li>
+                  <li>Video/Audio call</li>
                   <li>5 Questions of your choice</li>
                   <li>Brief and general observations from palmist for 10 mins</li>
                 </ul>
@@ -62,7 +62,7 @@ export const TripleCards = () => {
               <p className="card-text">
               <ul>
                   <li>40 Minutes with Palmist</li>
-                  <li>Viedeo/Audio call</li>
+                  <li>Video/Audio call</li>
                   <li>10 Questions of your choice</li>
                   <li>General observations & life challenges for 10 mins</li>
                 </ul>
@@ -82,9 +82,9 @@ export const TripleCards = () => {
               <p className="card-text">
               <ul>
                   <li>60 Minutes with Palmist</li>
-                  <li>Viedeo/Audio call or even a personal visit</li>
+                  <li>Video/Audio call or even a personal visit</li>
                   <li>15 Questions of your choice</li>
-                  <li>Open interaction and follow-up emails and calls, if needed(Max of 2)</li>
+                  <li>Open interaction and follow-up emails & calls (Max of 2)</li>
                 </ul>
               </p>
             </div>

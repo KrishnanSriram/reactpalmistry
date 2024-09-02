@@ -70,8 +70,8 @@ export const ContactForm = () => {
   };
 
   return (
-    <div id="contact" className="container col-8 my-5">
-      <h2>Contact Me</h2>
+    <div id="contact" className="container col-8 my-5 ">
+      <h2 className='font-cursive-text'>Contact Me</h2>
       <form onSubmit={handleSubmit} noValidate>
         <div className="mb-3">
           <label htmlFor="fullName" className="form-label">Full Name</label>

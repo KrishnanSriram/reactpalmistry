@@ -2,33 +2,6 @@ import React from 'react';
 import './css/cardanimations.css'
 
 export const TripleCards = () => {
-  // const cardRef = useRef();
-
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver(
-  //     (entries) => {
-  //       entries.forEach((entry) => {
-  //         if (entry.isIntersecting) {
-  //           entry.target.classList.add('animate');
-  //           observer.unobserve(entry.target); // Stop observing once animation is triggered
-  //         }
-  //       });
-  //     },
-  //     { threshold: 0.1 } // Adjust as needed (0.1 means 10% of the component is visible)
-  //   );
-
-  //   const cards = cardRef.current.querySelectorAll('.card');
-  //   cards.forEach((card) => {
-  //     observer.observe(card);
-  //   });
-
-  //   // Cleanup observer on unmount
-  //   return () => {
-  //     if (observer && observer.disconnect) {
-  //       observer.disconnect();
-  //     }
-  //   };
-  // }, []);
 
   return (
     <div id="services" className="container mt-4">
@@ -39,7 +12,7 @@ export const TripleCards = () => {
               <h5 className="card-title mb-0">Basic</h5>
             </div>
             <div className="card-body">
-              <p className="card-text">
+              <p className="card-text font-cursive-text">
                 <ul>
                   <li>20 Minutes with Palmist</li>
                   <li>Video/Audio call</li>
@@ -48,7 +21,7 @@ export const TripleCards = () => {
                 </ul>
               </p>
             </div>
-            <div className="card-footer text-muted text-center">
+            <div className="card-footer text-muted text-center font-cursive-text">
               <h4>$25</h4>
             </div>
           </div>
@@ -59,7 +32,7 @@ export const TripleCards = () => {
               <h5 className="card-title mb-0">Standard</h5>
             </div>
             <div className="card-body">
-              <p className="card-text">
+              <p className="card-text font-cursive-text">
               <ul>
                   <li>40 Minutes with Palmist</li>
                   <li>Video/Audio call</li>
@@ -68,7 +41,7 @@ export const TripleCards = () => {
                 </ul>
               </p>
             </div>
-            <div className="card-footer text-muted text-center">
+            <div className="card-footer text-muted text-center font-cursive-text">
             <h4>$50</h4>
             </div>
           </div>
@@ -79,16 +52,16 @@ export const TripleCards = () => {
               <h5 className="card-title mb-0">Premium</h5>
             </div>
             <div className="card-body">
-              <p className="card-text">
+              <p className="card-text font-cursive-text">
               <ul>
                   <li>60 Minutes with Palmist</li>
-                  <li>Video/Audio call or even a personal visit</li>
+                  <li>Video/Audio call</li>
                   <li>15 Questions of your choice</li>
                   <li>Open interaction and follow-up emails & calls (Max of 2)</li>
                 </ul>
               </p>
             </div>
-            <div className="card-footer text-muted text-center">
+            <div className="card-footer text-muted text-center font-cursive-text">
             <h4>$100</h4>
             </div>
           </div>

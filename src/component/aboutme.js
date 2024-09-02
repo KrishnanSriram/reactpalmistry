@@ -13,7 +13,7 @@ export const AboutMe = () => {
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <p className="card-text">
+            <p className="card-text font-cursive-text">
             <b>I am a Palmist as well as a cancer researcher focused on developing new treatments for triple-negative breast cancer.</b> 
             <p>My work involves combining different therapies and exploring innovative approaches like electric fields to reduce treatment side effects. I collaborate with colleagues, publish my findings, and have received recognition for my research contributions.
             </p>

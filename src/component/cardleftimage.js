@@ -14,7 +14,7 @@ export const CardLeftImage = () => {
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <p className="card-text">
+            <p className="card-text font-cursive-text">
             <b>Palmistry is an ancient art that offers a unique glimpse into your soul.</b> Your hands, a roadmap of your life, hold clues to your personality, strengths, challenges, and potential. By understanding the intricate lines and mounts on your palm, you can gain valuable insights into your past, present, and future. It's not about predicting the future, but uncovering your inherent qualities and making informed choices. Experience the magic of self-discovery through palmistry.
             </p>
             <p className="card-text"><small className="text-muted">More details to come later</small></p>

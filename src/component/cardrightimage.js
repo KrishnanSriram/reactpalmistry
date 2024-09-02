@@ -9,7 +9,7 @@ export const CardRightImage = () => {
       <div className="row g-0">
         <div className="col-md-8">
           <div className="card-body">
-            <p className="card-text">
+            <p className="card-text font-cursive-text">
             <b>Palmistry can unveil a wealth of information about you.</b> Discover hidden aspects of your personality, understand your strengths and weaknesses, gain insights into your career path, and explore potential challenges and opportunities. Uncover your love life compatibility, explore your health and vitality, and even catch a glimpse of major life events. Palmistry is a tool for self-discovery and personal growth, offering a unique perspective on your life journey.
             </p>
             <p className="card-text"><small className="text-muted">Try for yourself and learn more</small></p>

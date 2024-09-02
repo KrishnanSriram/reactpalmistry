@@ -19,3 +19,9 @@
 .card img:hover {
   transform: scale(1.1);
 }
+
+.font-cursive-text {
+  font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-size: 23px;
+}

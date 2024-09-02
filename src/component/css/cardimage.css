@@ -4,6 +4,13 @@
   object-fit: cover;
 }
 
+.fixed-size-portrait-image {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  margin-left: 50px;
+}
+
 /* Zoom-In Effect */
 .card img {
   transition: transform 0.3s ease;

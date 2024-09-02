@@ -10,6 +10,15 @@
   object-fit: cover; /* Ensure the image covers the entire content area */
 }
 
+h3:hover {
+  color: red;
+}
+
+.font-cursive {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+}
+
 /* Zoom-In Effect
 .card img {
   transition: transform 0.3s ease;

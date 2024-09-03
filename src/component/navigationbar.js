@@ -5,22 +5,22 @@ export const NavigationBar = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/"><span className='display-4 font-cursive'>ESyPalmistry</span></a>
+          <a className="navbar-brand" href="/"><span className='font-cursive-title'>ESyPalmistry</span></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item font-cursive">
+            <ul className="navbar-nav ms-auto font-cursive-text">
+              <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/">Home</a>
               </li>
-              <li className="nav-item font-cursive">
+              <li className="nav-item">
                 <a className="nav-link" href="#about">About</a>
               </li>
-              <li className="nav-item font-cursive">
+              <li className="nav-item">
                 <a className="nav-link" href="#services">Services</a>
               </li>
-              <li className="nav-item font-cursive">
+              <li className="nav-item">
                 <a className="nav-link" href="#contact">Contact</a>
               </li>
             </ul>

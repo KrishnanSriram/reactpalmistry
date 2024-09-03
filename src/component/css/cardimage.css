@@ -20,8 +20,25 @@
   transform: scale(1.1);
 }
 
-.font-cursive-text {
-  font-family: "Sevillana", cursive;
-  font-weight: 400;
-  font-size: 23px;
+.font-cursive-title {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
 }
+
+.font-cursive-text {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.font-footer-text {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+/*.font-cursive-text-cu {
+  font-family: "Roboto";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+} */

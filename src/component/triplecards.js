@@ -12,7 +12,7 @@ export const TripleCards = () => {
               <h5 className="card-title mb-0">Basic</h5>
             </div>
             <div className="card-body">
-              <p className="card-text font-cursive-text">
+              <p className="card-text">
                 <ul>
                   <li>20 Minutes with Palmist</li>
                   <li>Video/Audio call</li>
@@ -21,7 +21,7 @@ export const TripleCards = () => {
                 </ul>
               </p>
             </div>
-            <div className="card-footer text-muted text-center font-cursive-text">
+            <div className="card-footer text-muted text-center">
               <h4>$25</h4>
             </div>
           </div>
@@ -32,7 +32,7 @@ export const TripleCards = () => {
               <h5 className="card-title mb-0">Standard</h5>
             </div>
             <div className="card-body">
-              <p className="card-text font-cursive-text">
+              <p className="card-text">
               <ul>
                   <li>40 Minutes with Palmist</li>
                   <li>Video/Audio call</li>
@@ -41,7 +41,7 @@ export const TripleCards = () => {
                 </ul>
               </p>
             </div>
-            <div className="card-footer text-muted text-center font-cursive-text">
+            <div className="card-footer text-muted text-center">
             <h4>$50</h4>
             </div>
           </div>
@@ -52,7 +52,7 @@ export const TripleCards = () => {
               <h5 className="card-title mb-0">Premium</h5>
             </div>
             <div className="card-body">
-              <p className="card-text font-cursive-text">
+              <p className="card-text">
               <ul>
                   <li>60 Minutes with Palmist</li>
                   <li>Video/Audio call</li>
@@ -61,7 +61,7 @@ export const TripleCards = () => {
                 </ul>
               </p>
             </div>
-            <div className="card-footer text-muted text-center font-cursive-text">
+            <div className="card-footer text-muted text-center">
             <h4>$100</h4>
             </div>
           </div>
